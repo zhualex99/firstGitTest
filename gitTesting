@@ -1,0 +1,9 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+int main ()
+{
+    FILE * myFirstPointer = fopen ("new_pointer.txt", "w");
+    fprintf(myFirstPointer, "Hi, this was made by Alex\nThis is his second line");
+}
+}
